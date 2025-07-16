@@ -20,6 +20,7 @@ AppointmentRepository - Responsible for calling loading and storing appointments
 
 ## The Vehicle API
 URL: [https://c3vehicleapi.azurewebsites.net/](https://c3vehicleapi.azurewebsites.net/)
+
 Swagger: [https://c3vehicleapi.azurewebsites.net/swagger/index.html](https://c3vehicleapi.azurewebsites.net/swagger/index.html)
 
 ### Registration Endpoint
@@ -27,6 +28,8 @@ Swagger: [https://c3vehicleapi.azurewebsites.net/swagger/index.html](https://c3v
 
 ### Notes on Authentication
 The remaining endpoints require authorization which is accomplished by passing an `x-api-key` header to the endpoints. Unfortunately these calls don't currently work through swagger since the header isn't able to be set. I would suggest either looking at your IDE's support for `.http` files, PostMan, or even curl.
+
+For `.http` support in VS Code install the `REST Client` extension
 
 ### Sample data
 Registering an application also generates some sample data for your account.
