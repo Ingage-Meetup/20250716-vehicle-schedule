@@ -12,7 +12,7 @@ content-type: application/json
   "applicationName": "{{ApplicationName}}"
 }
 
-### Get all appointments for a specific site
+### Get all sites
 GET {{BaseUrl}}/sites
 x-api-key: {{ApiKey}}
 Accept: "application/json"
